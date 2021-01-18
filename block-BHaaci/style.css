@@ -1,0 +1,212 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* costom Style */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+
+/* container */
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.flex-48 {
+  flex: 0 1 48%;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bg {
+  background: url(assets/media/bg-intro-desktop.png) no-repeat,
+    linear-gradient(#f77878, #f77878);
+  height: 100vh;
+  background-size: cover;
+}
+
+.heading {
+  color: white;
+  font-size: 58px;
+  font-weight: bolder;
+}
+.para {
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+.btn-top {
+  background-color: #5d54a3;
+  margin-bottom: 28px;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.3);
+}
+.btn-inside {
+  font-weight: bolder;
+}
+.form {
+  background-color: white;
+  padding: 32px;
+  border-radius: 8px;
+}
+.form-control {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 18px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.btn-bottom {
+  border: 0;
+  background-color: #52cc8a;
+  font-size: 20px;
+}
+.form p {
+  text-align: center;
+  font-size: 12px;
+  color: #cccc;
+  margin-top: 18px;
+}
+.footer {
+  color: #f77878;
+  font-weight: 700;
+}
